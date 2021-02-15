@@ -11,6 +11,19 @@ li.obsoleted {
 li.new {
   color: rgb(105,0,255);
 }
+
+li.test_ok {
+  color: rgb(105,0,255);
+}
+li.test_seems_ok {
+  color: rgb(0,150,0);
+}
+li.test_skip {
+  color: rgb(180,30,180);
+}
+li.test_no {
+  color: rgb(180,50,50);
+}
 </style>
 </head>
 <body>
@@ -29,7 +42,28 @@ li.new {
 <ul>
 <li class="new">lua54, lua53: Multiple versions of Lua can be installed.</li>
 <li class="new">luarocks: Installs lua modules to an alternative tree <code>/var/lib/lua-site/</code>.</li>
-<li class="obsoleted">luadoc: Not updated, since it is too old and obsoleted by ldoc.</li>
+<li class="obsoleted"><a href="https://www.cygwin.com/packages/summary/lua-luadoc.html">lua-luadoc</a>: obsoleted by lua-ldoc, not updated</li>
+<li class="same"><a href="https://www.cygwin.com/packages/summary/lua-gv.html">lua-gv</a>: not updated, part of <a href="https://www.cygwin.com/packages/summary/graphviz-src.html">graphviz</a></li>
+<li class="same"><a href="https://www.cygwin.com/packages/summary/lua-xapian.html">lua-xapian</a>: not updated, part of <a href="https://www.cygwin.com/packages/summary/xapian-bindings-src.html">xapian-bindings</a></li>
+</ul>
+
+<h2>Tests</h2>
+<ul>
+<li class="test_seems_ok">lua54: no test? but seems to work</li>
+<li class="test_seems_ok">lua53: no test? but seems to work, obsoletes <a href="https://www.cygwin.com/packages/summary/lua-src.html">lua</a></li>
+<li class="test_ok"><a href="https://www.cygwin.com/packages/summary/lua-crypto-src.html">lua-crypto</a>: ok</li>
+<li class="test_ok"><a href="https://www.cygwin.com/packages/summary/lua-json-src.html">lua-json</a>: ok</li>
+<li class="test_skip"><a href="https://www.cygwin.com/packages/summary/lua-ldap-src.html">lua-ldap</a>: skipped (needs testers, since I don't know how to test it)</li>
+<li class="test_ok">lua-ldoc: ok</li>
+<li class="test_ok"><a href="https://www.cygwin.com/packages/summary/lua-lfs-src.html">lua-lfs</a>: ok</li>
+<li class="test_no"><a href="https://www.cygwin.com/packages/summary/lua-lgi-src.html">lua-lgi</a>: partial success. Python fails at <code>from giscanner._giscanner import collect_attributes</code></li>
+<li class="test_ok"><a href="https://www.cygwin.com/packages/summary/lua-logging-src.html">lua-logging</a>: ok</li>
+<li class="test_ok"><a href="https://www.cygwin.com/packages/summary/lua-lpeg-src.html">lua-lpeg</a>: ok</li>
+<li class="test_ok">lua-luaossl: ok</li>
+<li class="test_ok">lua-lunitx: ok</li>
+<li class="test_ok"><a href="https://www.cygwin.com/packages/summary/lua-lxp-src.html">lua-lxp</a>: ok</li>
+<li class="test_ok">lua-pl: ok</li>
+<li class="test_seems_ok">luarocks: no test? but seems to work</li>
 </ul>
 
 <hr>
