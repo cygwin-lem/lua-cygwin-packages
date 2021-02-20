@@ -32,14 +32,15 @@ declare -A CYGWIN_PACKAGES=(
 
 [lua-lxp]="https://github.com/cygwin-lem/lua-lxp-cygport lua-lxp_gh-pages"
 
+[lua-say]="https://github.com/cygwin-lem/lua-say-cygport lua-say_gh-pages"
+  [lua-luassert]="https://github.com/cygwin-lem/lua-luassert-cygport lua-luassert_gh-pages"
+
 # Obsolete
 #[lua-luadoc]="https://github.com/cygwin-lem/lua-luadoc-cygport lua-luadoc_gh-pages"
 
 # Pending
 #[lua-cliargs]="https://github.com/cygwin-lem/lua-cliargs-cygport lua-cliargs_gh-pages"
-#[lua-luassert]="https://github.com/cygwin-lem/lua-luassert-cygport lua-luassert_gh-pages"
 #[lua-mediator]="https://github.com/cygwin-lem/lua-mediator-cygport lua-mediator_gh-pages"
-#[lua-say]="https://github.com/cygwin-lem/lua-say-cygport lua-say_gh-pages"
 )
 
 ################################################################
