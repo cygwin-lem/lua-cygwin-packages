@@ -24,6 +24,9 @@ li.test_skip {
 li.test_no {
   color: rgb(180,50,50);
 }
+pre.code {
+  background-color: rgb(240,240,240);
+}
 </style>
 </head>
 <body>
@@ -46,6 +49,32 @@ li.test_no {
 <li class="same"><a href="https://www.cygwin.com/packages/summary/lua-gv.html">lua-gv</a>: not updated, part of <a href="https://www.cygwin.com/packages/summary/graphviz-src.html">graphviz</a></li>
 <li class="same"><a href="https://www.cygwin.com/packages/summary/lua-xapian.html">lua-xapian</a>: not updated, part of <a href="https://www.cygwin.com/packages/summary/xapian-bindings-src.html">xapian-bindings</a></li>
 </ul>
+
+<h2>Usage Examples</h2>
+Here are usage examples of luarocks, or try a test script <a href="./test-luarocks.sh"><code>test-luarocks.sh</code></a> (<a href="./test-luarocks.sh.html">view in html</a>).
+<pre class="code code_sh">
+luarocks-5.4 install argparse \
+&& luarocks-5.4 list \
+&& lua5.4 -e 'require("argparse")' && echo OK: argparse \
+&& luarocks-5.4 remove argparse
+
+luarocks-5.4 install lua-cjson \
+&& luarocks-5.4 list \
+&& lua5.4 -e 'require("cjson")' && echo OK: cjson\
+&& lua5.4 -e 'require("cjson.util")' && echo OK: cjson.util \
+&& luarocks-5.4 remove lua-cjson
+
+luarocks-5.3 install argparse \
+&& luarocks-5.3 list \
+&& lua5.3 -e 'require("argparse")' && echo OK: argparse \
+&& luarocks-5.3 remove argparse
+
+luarocks-5.3 install lua-cjson \
+&& luarocks-5.3 list \
+&& lua5.3 -e 'require("cjson")' && echo OK: cjson \
+&& lua5.3 -e 'require("cjson.util")' && echo OK: cjson.util \
+&& luarocks-5.3 remove lua-cjson
+</pre>
 
 <h2>Tests</h2>
 <ul>
