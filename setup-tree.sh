@@ -29,6 +29,7 @@ declare -A CYGWIN_PACKAGES=(
 
 [lua-socket]="https://github.com/cygwin-lem/lua-socket-cygport lua-socket_gh-pages"
  [lua-logging]="https://github.com/cygwin-lem/lua-logging-cygport lua-logging_gh-pages"
+ [lua-luasec]="https://github.com/cygwin-lem/lua-luasec-cygport lua-luasec_gh-pages"
 
 [lua-lxp]="https://github.com/cygwin-lem/lua-lxp-cygport lua-lxp_gh-pages"
 
