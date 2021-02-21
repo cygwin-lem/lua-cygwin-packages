@@ -131,6 +131,7 @@ list2html () {
 makelist () {
   mkdir -p "${CYGDIR}" 
   pushd "${CYGDIR}" > /dev/null
+  echo ../index.html
   find . -type f
   popd > /dev/null
 }
