@@ -53,12 +53,32 @@ pre.code {
 
 <h2>Note</h2>
 <ul>
-<li class="new"><a href="https://www.cygwin.com/packages/summary/lua.html">lua</a>: Turned into a meta-package for Lua default version</li>
-<li class="new">lua54, lua53, lua51: Multiple versions of Lua can be installed.</li>
-<li class="new">luarocks: Installs lua modules to an alternative tree <code>/usr/share/lua/luarocks/</code>.</li>
+<li class="new"><a href="https://www.cygwin.com/packages/summary/lua.html">lua</a>: Turned into a meta-package for Lua default version
+<ul>
+<li>current is for lua53</li>
+<li>test is for lua54</li>
+</ul>
+</li>
+<li class="new">lua54, lua53, lua51: Multiple versions of Lua can be installed
+<ul>
+<li>Some modules are prepared for lua54 and lua53</li>
+<li>Modules for lua51 are NOT prepared, since they have not been maintained</li>
+</ul>
+</li>
+<li class="new">luarocks: Installs rocks and modules to an alternative tree structure
+<ul>
+<li>luarocks tree: <code>/usr</code></li>
+<li>rocks: <code>/usr/lib/lua/luarocks/rocks-${LUA_VERSION}</code></li>
+<li>manifest: <code>/usr/lib/lua/luarocks/rocks-${LUA_VERSION}/manifest</code></li>
+<li>deploy_bin_dir: <code>/usr/lib/lua/luarocks/bin</code></li>
+<li>deploy_lib_dir: <code>/usr/lib/lua/luarocks/${LUA_VERSION}</code></li>
+<li>deploy_lua_dir: <code>/usr/share/lua/luarocks/${LUA_VERSION}</code></li>
+</ul>
+</li>
 <li class="obsoleted"><a href="https://www.cygwin.com/packages/summary/lua-luadoc.html">lua-luadoc</a>: obsoleted by lua-ldoc, not updated</li>
 <li class="same"><a href="https://www.cygwin.com/packages/summary/lua-gv.html">lua-gv</a>: not updated, part of <a href="https://www.cygwin.com/packages/summary/graphviz-src.html">graphviz</a></li>
 <li class="same"><a href="https://www.cygwin.com/packages/summary/lua-xapian.html">lua-xapian</a>: not updated, part of <a href="https://www.cygwin.com/packages/summary/xapian-bindings-src.html">xapian-bindings</a></li>
+<li class="same"><a href="https://www.cygwin.com/packages/summary/lua5.1-keybinder.html">lua5.1-keybinder</a>: not updated, part of <a href="https://www.cygwin.com/packages/summary/keybinder-src.html">keybinder</a></li>
 </ul>
 
 <h2>Usage Examples</h2>
@@ -90,7 +110,7 @@ luarocks-5.3 install lua-cjson \
 <h2>Tests</h2>
 <ul>
 <li class="test_seems_ok">lua54: no test? but seems to work</li>
-<li class="test_seems_ok">lua53: no test? but seems to work, obsoletes <a href="https://www.cygwin.com/packages/summary/lua-src.html">lua</a></li>
+<li class="test_seems_ok">lua53: no test? but seems to work</li>
 <li class="test_seems_ok">lua51: no test? but seems to work, obsoletes <a href="https://www.cygwin.com/packages/summary/lua5.1-src.html">lua5.1</a></li>
 <li class="test_ok"><a href="https://www.cygwin.com/packages/summary/lua-crypto-src.html">lua-crypto</a>: ok</li>
 <li class="test_ok"><a href="https://www.cygwin.com/packages/summary/lua-json-src.html">lua-json</a>: ok</li>
