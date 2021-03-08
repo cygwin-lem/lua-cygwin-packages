@@ -6,7 +6,8 @@ CYGDIR=./lua-cygwin
 
 ################################################################
 declare -A CYGWIN_PACKAGES=(
-[lua]="https://github.com/cygwin-lem/lua-cygport lua_gh-pages"
+[lua-5.4]="https://github.com/cygwin-lem/lua-cygport lua-5.4_gh-pages"
+[lua-5.3]="https://github.com/cygwin-lem/lua-cygport lua-5.3_gh-pages"
 [lua54]="https://github.com/cygwin-lem/lua-cygport lua54_gh-pages"
 [lua53]="https://github.com/cygwin-lem/lua-cygport lua53_gh-pages"
 [lua51]="https://github.com/cygwin-lem/lua-cygport lua51_gh-pages"
