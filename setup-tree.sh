@@ -40,6 +40,8 @@ declare -A CYGWIN_PACKAGES=(
 [lua-say]="https://github.com/cygwin-lem/lua-say-cygport lua-say_gh-pages"
   [lua-luassert]="https://github.com/cygwin-lem/lua-luassert-cygport lua-luassert_gh-pages"
 
+[lua-dkjson]="https://github.com/cygwin-lem/lua-dkjson-cygport lua-dkjson_gh-pages"
+
 # Obsolete
 #[lua-luadoc]="https://github.com/cygwin-lem/lua-luadoc-cygport lua-luadoc_gh-pages"
 
