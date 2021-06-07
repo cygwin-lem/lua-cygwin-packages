@@ -42,13 +42,13 @@ declare -A CYGWIN_PACKAGES=(
 
 [lua-dkjson]="https://github.com/cygwin-lem/lua-dkjson-cygport lua-dkjson_gh-pages"
 [lua-term]="https://github.com/cygwin-lem/lua-term-cygport lua-term_gh-pages"
+[lua-system]="https://github.com/cygwin-lem/lua-system-cygport lua-system_gh-pages"
+[lua-cliargs]="https://github.com/cygwin-lem/lua-cliargs-cygport lua-cliargs_gh-pages"
+[lua-mediator]="https://github.com/cygwin-lem/lua-mediator-cygport lua-mediator_gh-pages"
 
 # Obsolete
 #[lua-luadoc]="https://github.com/cygwin-lem/lua-luadoc-cygport lua-luadoc_gh-pages"
 
-# Pending
-#[lua-cliargs]="https://github.com/cygwin-lem/lua-cliargs-cygport lua-cliargs_gh-pages"
-#[lua-mediator]="https://github.com/cygwin-lem/lua-mediator-cygport lua-mediator_gh-pages"
 )
 
 ################################################################
