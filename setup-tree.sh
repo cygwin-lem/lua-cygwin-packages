@@ -47,6 +47,9 @@ declare -A CYGWIN_PACKAGES=(
 [lua-mediator]="https://github.com/cygwin-lem/lua-mediator-cygport lua-mediator_gh-pages"
 [lua-busted]="https://github.com/cygwin-lem/lua-busted-cygport lua-busted_gh-pages"
 
+[lua-luacov]="https://github.com/cygwin-lem/lua-luacov-cygport lua-luacov_gh-pages"
+[lua-cluacov]="https://github.com/cygwin-lem/lua-cluacov-cygport lua-cluacov_gh-pages"
+
 # Obsolete
 #[lua-luadoc]="https://github.com/cygwin-lem/lua-luadoc-cygport lua-luadoc_gh-pages"
 
