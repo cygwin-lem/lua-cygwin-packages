@@ -25,6 +25,8 @@ declare -A CYGWIN_PACKAGES=(
 
 [lua-ldap]="https://github.com/cygwin-lem/lua-ldap-cygport lua-ldap_gh-pages"
 
+[lua-markdown]="https://github.com/cygwin-lem/lua-markdown-cygport lua-markdown_gh-pages"
+
 [lua-lfs]="https://github.com/cygwin-lem/lua-lfs-cygport lua-lfs_gh-pages"
  [lua-pl]="https://github.com/cygwin-lem/lua-pl-cygport lua-pl_gh-pages"
   [lua-ldoc]="https://github.com/cygwin-lem/lua-ldoc-cygport lua-ldoc_gh-pages"
