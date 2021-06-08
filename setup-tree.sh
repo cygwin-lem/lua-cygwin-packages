@@ -50,6 +50,9 @@ declare -A CYGWIN_PACKAGES=(
 [lua-luacov]="https://github.com/cygwin-lem/lua-luacov-cygport lua-luacov_gh-pages"
 [lua-cluacov]="https://github.com/cygwin-lem/lua-cluacov-cygport lua-cluacov_gh-pages"
 
+[lua-argparse]="https://github.com/cygwin-lem/lua-argparse-cygport lua-argparse_gh-pages"
+[lua-cjson]="https://github.com/cygwin-lem/lua-cjson-cygport lua-cjson_gh-pages"
+
 # Obsolete
 #[lua-luadoc]="https://github.com/cygwin-lem/lua-luadoc-cygport lua-luadoc_gh-pages"
 
