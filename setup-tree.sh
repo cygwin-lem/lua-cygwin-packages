@@ -13,6 +13,8 @@ declare -A CYGWIN_PACKAGES=(
 [lua52]="https://github.com/cygwin-lem/lua-cygport lua52_gh-pages"
 [lua51]="https://github.com/cygwin-lem/lua-cygport lua51_gh-pages"
 
+[lua-bit]="https://github.com/cygwin-lem/lua-bit-cygport lua-bit_gh-pages"
+
 [luarocks]="https://github.com/cygwin-lem/luarocks-cygport luarocks_gh-pages"
 
 [lua-crypto]="https://github.com/cygwin-lem/lua-crypto-cygport lua-crypto_gh-pages"
