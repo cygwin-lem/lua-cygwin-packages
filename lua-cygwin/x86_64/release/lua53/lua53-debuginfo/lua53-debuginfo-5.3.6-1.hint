@@ -1,0 +1,7 @@
+category: Debug
+requires: cygwin-debuginfo
+external-source: lua53
+sdesc: "Debug info for lua53"
+ldesc: "This package contains files necessary for debugging the
+lua53 package with gdb."
+

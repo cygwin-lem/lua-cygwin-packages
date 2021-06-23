@@ -1,0 +1,10 @@
+category: Lua
+build-depends: cygport   lua51-devel lua51-say  lua52-devel lua52-say  lua53-devel lua53-say  lua54-devel lua54-say
+sdesc: "Lua Assertions Extension"
+ldesc: "luassert extends Lua's built-in assertions to provide additional tests
+and the ability to create your own. You can modify chains of assertions
+with not.
+"
+skip:
+
+homepage: https://github.com/Olivine-Labs/luassert/

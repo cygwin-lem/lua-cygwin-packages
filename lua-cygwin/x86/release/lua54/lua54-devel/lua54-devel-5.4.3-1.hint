@@ -1,0 +1,9 @@
+category: Lua Interpreters
+requires: bash lua54 pkg-config 
+sdesc: "Lua programming language interpreter (devel)"
+ldesc: "Lua is a powerful, efficient, lightweight, embeddable scripting language.
+It supports procedural programming, object-oriented programming,
+functional programming, data-driven programming, and data description.
+"
+external-source: lua54
+

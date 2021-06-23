@@ -1,0 +1,9 @@
+category: Lua
+requires: lua54 lua54-dkjson lua54-lyaml
+sdesc: "A command-line argument parser"
+ldesc: "This module adds support for accepting CLI arguments easily using multiple
+notations and argument types.
+cliargs allows you to define required, optional, and flag arguments.
+"
+external-source: lua-cliargs
+

@@ -1,0 +1,7 @@
+category: Lua
+requires: lua52
+sdesc: "Markdown text-to-html markup system"
+ldesc: "A pure-lua implementation of the Markdown text-to-html markup system.
+"
+external-source: lua-markdown
+

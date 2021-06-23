@@ -1,0 +1,8 @@
+category: Lua
+requires: cygwin lua51
+sdesc: "C extensions for LuaCov"
+ldesc: "Optional C extensions for LuaCov, improving performance and reducing
+number of lines incorrectly marked as missed. Depends on LuaCov.
+"
+external-source: lua-cluacov
+

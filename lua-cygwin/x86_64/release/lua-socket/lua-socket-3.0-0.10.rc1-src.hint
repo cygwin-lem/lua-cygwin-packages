@@ -1,0 +1,11 @@
+category: Lua
+build-depends: cygport   lua51-devel  lua52-devel  lua53-devel  lua54-devel
+sdesc: "Lua TCP/UDP socket library"
+ldesc: "LuaSocket is a Lua extension library that is composed by two parts:
+a C core that provides support for the TCP and UDP transport layers, and
+a set of Lua modules that add support for functionality commonly needed
+by applications that deal with the Internet.
+"
+skip:
+
+homepage: http://w3.impa.br/~diego/software/luasocket/

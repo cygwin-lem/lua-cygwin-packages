@@ -1,0 +1,13 @@
+category: Lua
+build-depends: cygport   lua51-devel lua51-cluacov  lua52-devel lua52-cluacov  lua53-devel lua53-cluacov  lua54-devel lua54-cluacov
+sdesc: "Coverage analysis tool for Lua scripts"
+ldesc: "LuaCov is a simple coverage analysis tool for Lua scripts.
+When a Lua script is run with the luacov module, it
+generates a stats file. The luacov command-line script then
+processes this file generating a report indicating which code
+paths were not traversed, which is useful for verifying the
+effectiveness of a test suite.
+"
+skip:
+
+homepage: https://github.com/keplerproject/luacov/

@@ -1,0 +1,10 @@
+category: Lua
+requires: cygwin libssl1.0 lua54 lua54
+sdesc: "Lua OpenSSL bindings"
+ldesc: "*** This project is DEPRECATED, use luaossl. ***
+LuaCrypto provides a Lua frontend to the OpenSSL cryptographic library.
+The OpenSSL features that are currently exposed are digests (MD5, SHA-1,
+HMAC, and more) and crypto-grade random number generators.
+"
+external-source: lua-crypto
+

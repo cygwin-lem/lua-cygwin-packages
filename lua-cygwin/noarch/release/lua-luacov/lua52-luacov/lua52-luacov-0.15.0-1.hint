@@ -1,0 +1,12 @@
+category: Lua
+requires: bash lua52 lua52-cluacov
+sdesc: "Coverage analysis tool for Lua scripts"
+ldesc: "LuaCov is a simple coverage analysis tool for Lua scripts.
+When a Lua script is run with the luacov module, it
+generates a stats file. The luacov command-line script then
+processes this file generating a report indicating which code
+paths were not traversed, which is useful for verifying the
+effectiveness of a test suite.
+"
+external-source: lua-luacov
+

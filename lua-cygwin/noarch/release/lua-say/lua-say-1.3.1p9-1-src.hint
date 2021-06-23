@@ -1,0 +1,9 @@
+category: Lua
+build-depends: cygport   lua51-devel  lua52-devel  lua53-devel  lua54-devel
+sdesc: "Lua String Hashing/Indexing Library"
+ldesc: "say is a simple string key/value store for i18n or any other case where
+you want namespaced strings.
+"
+skip:
+
+homepage: https://github.com/Olivine-Labs/say/

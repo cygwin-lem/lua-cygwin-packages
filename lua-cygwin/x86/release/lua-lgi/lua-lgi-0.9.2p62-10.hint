@@ -1,0 +1,8 @@
+category: _obsolete
+requires: lua53-lgi
+sdesc: "Obsoleted by lua53-lgi"
+ldesc: "The lua-lgi package is obsolete.  Selecting this package for
+installation will cause the lua53-lgi package, which replaces this
+one, to be installed instead."
+
+

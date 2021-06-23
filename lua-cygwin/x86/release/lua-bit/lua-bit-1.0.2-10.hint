@@ -1,0 +1,8 @@
+category: _obsolete
+requires: lua51-bit
+sdesc: "Obsoleted by lua51-bit"
+ldesc: "The lua-bit package is obsolete.  Selecting this package for
+installation will cause the lua51-bit package, which replaces this
+one, to be installed instead."
+
+

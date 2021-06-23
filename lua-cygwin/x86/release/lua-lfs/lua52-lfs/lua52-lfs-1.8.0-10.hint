@@ -1,0 +1,9 @@
+category: Lua
+requires: cygwin lua52
+sdesc: "Lua file system library"
+ldesc: "LuaFileSystem is a Lua library developed to complement the set of
+functions related to file systems offered by the standard Lua
+distribution.
+"
+external-source: lua-lfs
+

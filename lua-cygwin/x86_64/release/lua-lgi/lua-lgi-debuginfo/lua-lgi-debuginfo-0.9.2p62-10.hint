@@ -1,0 +1,7 @@
+category: Debug
+requires: cygwin-debuginfo
+external-source: lua-lgi
+sdesc: "Debug info for lua-lgi"
+ldesc: "This package contains files necessary for debugging the
+lua-lgi package with gdb."
+

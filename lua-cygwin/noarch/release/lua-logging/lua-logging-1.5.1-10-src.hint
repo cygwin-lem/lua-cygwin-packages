@@ -1,0 +1,10 @@
+category: Lua
+build-depends: cygport   lua51-devel  lua51-socket  lua52-devel  lua52-socket  lua53-devel  lua53-socket  lua54-devel  lua54-socket
+sdesc: "Lua logging library"
+ldesc: "LuaLogging provides a simple API to use logging features in Lua.
+Its design was based on log4j. LuaLogging currently supports, through
+the use of appenders, console, file, email, socket and sql outputs.
+"
+skip:
+
+homepage: https://lunarmodules.github.io/lualogging/

@@ -1,0 +1,10 @@
+category: Lua Interpreters
+requires: bash cygwin-devel lua51 pkg-config 
+sdesc: "Lua programming language interpreter (devel)"
+ldesc: "Lua is a powerful, efficient, lightweight, embeddable scripting language.
+It supports procedural programming, object-oriented programming,
+functional programming, data-driven programming, and data description.
+"
+obsoletes: lua5.1-devel
+external-source: lua51
+

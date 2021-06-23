@@ -1,0 +1,7 @@
+category: Debug
+requires: cygwin-debuginfo
+external-source: lua-luaossl
+sdesc: "Debug info for lua-luaossl"
+ldesc: "This package contains files necessary for debugging the
+lua-luaossl package with gdb."
+

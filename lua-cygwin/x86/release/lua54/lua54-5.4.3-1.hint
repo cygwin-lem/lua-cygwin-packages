@@ -1,0 +1,9 @@
+category: Lua Interpreters
+requires: alternatives bash cygwin libgcc1 libreadline7 
+sdesc: "Lua programming language interpreter"
+ldesc: "Lua is a powerful, efficient, lightweight, embeddable scripting language.
+It supports procedural programming, object-oriented programming,
+functional programming, data-driven programming, and data description.
+"
+obsoletes: liblua5.4
+

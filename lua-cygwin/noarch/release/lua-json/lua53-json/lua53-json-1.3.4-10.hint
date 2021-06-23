@@ -1,0 +1,10 @@
+category: Lua
+requires: lua53 lua53-lpeg
+sdesc: "Lua JSON parser/encoder extension"
+ldesc: "Parses JSON using LPEG for speed and flexibility. Depending on
+parser/encoder options, various values are preserved as best as
+possible.
+"
+obsoletes: lua-json
+external-source: lua-json
+

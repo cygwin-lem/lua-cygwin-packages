@@ -1,0 +1,8 @@
+category: Lua
+build-depends: cygport   lua51-devel  lua52-devel  lua53-devel  lua54-devel  libexpat-devel
+sdesc: "Lua Expat bindings"
+ldesc: "LuaExpat is a SAX XML parser based on the Expat library.
+"
+skip:
+
+homepage: https://github.com/tomasguisasola/luaexpat/

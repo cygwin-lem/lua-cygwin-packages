@@ -1,0 +1,8 @@
+category: _obsolete
+requires: lua53-lpeg
+sdesc: "Obsoleted by lua53-lpeg"
+ldesc: "The lua-lpeg package is obsolete.  Selecting this package for
+installation will cause the lua53-lpeg package, which replaces this
+one, to be installed instead."
+
+

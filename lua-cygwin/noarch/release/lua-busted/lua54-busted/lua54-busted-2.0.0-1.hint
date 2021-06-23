@@ -1,0 +1,12 @@
+category: Lua
+requires: bash lua54 lua54-cliargs lua54-dkjson lua54-luassert lua54-mediator lua54-pl lua54-say lua54-system lua54-term
+sdesc: "Elegant Lua unit testing"
+ldesc: "An elegant, extensible, testing framework.
+Ships with a large amount of useful asserts,
+plus the ability to write your own. Output
+in pretty or plain terminal format, JSON,
+or TAP for CI integration. Great for TDD
+and unit, integration, and functional tests.
+"
+external-source: lua-busted
+

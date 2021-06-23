@@ -1,0 +1,10 @@
+category: Lua
+build-depends: cygport   lua51-devel lua51-lpeg lua51-lfs lua51-lunitx  lua52-devel lua52-lpeg lua52-lfs lua52-lunitx
+sdesc: "Lua JSON parser/encoder extension"
+ldesc: "Parses JSON using LPEG for speed and flexibility. Depending on
+parser/encoder options, various values are preserved as best as
+possible.
+"
+skip:
+
+homepage: https://www.eharning.us/wiki/luajson/

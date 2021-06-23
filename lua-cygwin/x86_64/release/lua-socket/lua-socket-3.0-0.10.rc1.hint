@@ -1,0 +1,8 @@
+category: _obsolete
+requires: lua53-socket
+sdesc: "Obsoleted by lua53-socket"
+ldesc: "The lua-socket package is obsolete.  Selecting this package for
+installation will cause the lua53-socket package, which replaces this
+one, to be installed instead."
+
+

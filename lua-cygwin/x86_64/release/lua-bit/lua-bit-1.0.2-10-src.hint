@@ -1,0 +1,9 @@
+category: Lua
+build-depends: cygport   lua51-devel  lua52-devel
+sdesc: "Lua bitwise operation library"
+ldesc: "Lua BitOp is a C extension module for Lua 5.1/5.2 which adds
+bitwise operations on numbers.
+"
+skip:
+
+homepage: https://bitop.luajit.org/

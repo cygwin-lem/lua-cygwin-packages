@@ -1,0 +1,9 @@
+category: Lua
+build-depends: cygport   lua51-devel lua51-luasec lua51-luasec lua51-socket  lua52-devel lua52-luasec lua52-luasec lua52-socket  lua53-devel lua53-luasec lua53-luasec lua53-socket  lua54-devel lua54-luasec lua54-luasec lua54-socket
+sdesc: "A package manager for Lua modules"
+ldesc: "LuaRocks is the package manager for Lua modules. It allows you to create
+and install Lua modules as self-contained packages called rocks.
+"
+skip:
+
+homepage: https://luarocks.org/

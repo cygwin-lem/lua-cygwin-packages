@@ -1,0 +1,12 @@
+category: Lua
+build-depends: cygport   lua51-devel  lua52-devel  lua53-devel  lua54-devel  openldap-devel
+sdesc: "Lua OpenLDAP bindings"
+ldesc: "LuaLDAP is a simple interface from Lua to an LDAP client, in
+fact it is a binding to OpenLDAP. It enables a Lua program to:
+* Connect to an LDAP server,
+* Execute any operation (search, add, compare, delete, modify and rename),
+* Retrieve entries and references of the search result.
+"
+skip:
+
+homepage: https://lualdap.github.io/lualdap/

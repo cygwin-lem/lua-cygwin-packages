@@ -1,0 +1,10 @@
+category: Lua
+requires: lua54
+sdesc: "Mediator lua: Event Management for Clean & Decoupled Code"
+ldesc: "mediator_lua allows you to subscribe and publish to a central object so
+you can decouple function calls in your application. It's as simple as
+mediator:subscribe(channel, function). Supports namespacing,
+predicates, and more.
+"
+external-source: lua-mediator
+

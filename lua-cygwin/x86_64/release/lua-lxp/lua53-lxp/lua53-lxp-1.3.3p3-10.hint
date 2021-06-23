@@ -1,0 +1,8 @@
+category: Lua
+requires: cygwin libexpat1 lua53
+sdesc: "Lua Expat bindings"
+ldesc: "LuaExpat is a SAX XML parser based on the Expat library.
+"
+obsoletes: lua-lxp
+external-source: lua-lxp
+

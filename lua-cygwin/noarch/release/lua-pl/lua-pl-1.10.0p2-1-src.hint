@@ -1,0 +1,12 @@
+category: Lua
+build-depends: cygport   lua51-devel lua51-lfs  lua52-devel lua52-lfs  lua53-devel lua53-lfs  lua54-devel lua54-lfs
+sdesc: "Penlight Lua Libraries"
+ldesc: "Penlight brings together a set of generally useful pure Lua modules,
+focusing on input data handling (such as reading configuration files),
+functional programming (such as map, reduce, placeholder expressions,
+etc), and OS path management. Much of the functionality is inspired by
+the Python standard libraries.
+"
+skip:
+
+homepage: https://lunarmodules.github.io/Penlight/

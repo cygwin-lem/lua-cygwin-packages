@@ -1,0 +1,8 @@
+category: _obsolete
+requires: lua53-json
+sdesc: "Obsoleted by lua53-json"
+ldesc: "The lua-json package is obsolete.  Selecting this package for
+installation will cause the lua53-json package, which replaces this
+one, to be installed instead."
+
+

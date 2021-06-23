@@ -1,0 +1,8 @@
+category: Lua
+build-depends: cygport   lua51-devel  lua52-devel  lua53-devel  lua54-devel  libssl-devel
+sdesc: "A comprehensive binding to OpenSSL"
+ldesc: "luaossl is a comprehensive binding to OpenSSL for Lua 5.1, 5.2, and later.
+"
+skip:
+
+homepage: https://github.com/wahern/luaossl/

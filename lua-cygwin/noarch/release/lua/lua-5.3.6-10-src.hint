@@ -1,0 +1,10 @@
+category: Lua Interpreters
+build-depends: cygport 
+sdesc: "Meta-package for Lua default version"
+ldesc: "Lua is a powerful, efficient, lightweight, embeddable scripting language.
+It supports procedural programming, object-oriented programming,
+functional programming, data-driven programming, and data description.
+"
+skip:
+
+homepage: https://www.lua.org/

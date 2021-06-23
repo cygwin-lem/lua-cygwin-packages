@@ -1,0 +1,9 @@
+category: Lua
+build-depends: cygport   lua51-devel  lua52-devel  lua53-devel  lua54-devel
+sdesc: "C extensions for LuaCov"
+ldesc: "Optional C extensions for LuaCov, improving performance and reducing
+number of lines incorrectly marked as missed. Depends on LuaCov.
+"
+skip:
+
+homepage: https://github.com/luarocks/cluacov/

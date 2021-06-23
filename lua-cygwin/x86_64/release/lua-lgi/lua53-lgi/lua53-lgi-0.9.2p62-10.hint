@@ -1,0 +1,9 @@
+category: Lua
+requires: cygwin libffi6 libgirepository1.0_1 libglib2.0_0 lua53
+sdesc: "GObject Introspection for Lua"
+ldesc: "LGI is gobject-introspection based dynamic Lua binding to GObject based
+libraries. It allows using GObject-based libraries directly from Lua.
+"
+obsoletes: lua-lgi
+external-source: lua-lgi
+

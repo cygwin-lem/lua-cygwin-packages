@@ -1,0 +1,10 @@
+category: Lua Interpreters
+requires:  lua54-devel
+sdesc: "Meta-package for Lua default version (devel)"
+ldesc: "Lua is a powerful, efficient, lightweight, embeddable scripting language.
+It supports procedural programming, object-oriented programming,
+functional programming, data-driven programming, and data description.
+"
+obsoletes: liblua-devel
+external-source: lua
+test:

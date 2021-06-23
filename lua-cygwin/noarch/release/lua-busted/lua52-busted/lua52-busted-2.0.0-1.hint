@@ -1,0 +1,12 @@
+category: Lua
+requires: bash lua52 lua52-cliargs lua52-dkjson lua52-luassert lua52-mediator lua52-pl lua52-say lua52-system lua52-term
+sdesc: "Elegant Lua unit testing"
+ldesc: "An elegant, extensible, testing framework.
+Ships with a large amount of useful asserts,
+plus the ability to write your own. Output
+in pretty or plain terminal format, JSON,
+or TAP for CI integration. Great for TDD
+and unit, integration, and functional tests.
+"
+external-source: lua-busted
+

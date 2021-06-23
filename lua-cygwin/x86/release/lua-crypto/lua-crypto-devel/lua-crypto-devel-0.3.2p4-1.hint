@@ -1,0 +1,8 @@
+category: _obsolete
+requires: lua53-crypto-devel
+sdesc: "Obsoleted by lua53-crypto-devel"
+ldesc: "The lua-crypto-devel package is obsolete.  Selecting this package for
+installation will cause the lua53-crypto-devel package, which replaces this
+one, to be installed instead."
+external-source: lua-crypto
+

@@ -1,0 +1,11 @@
+category: Lua
+requires: cygwin libopenldap2_5_0 lua51
+sdesc: "Lua OpenLDAP bindings"
+ldesc: "LuaLDAP is a simple interface from Lua to an LDAP client, in
+fact it is a binding to OpenLDAP. It enables a Lua program to:
+* Connect to an LDAP server,
+* Execute any operation (search, add, compare, delete, modify and rename),
+* Retrieve entries and references of the search result.
+"
+external-source: lua-ldap
+

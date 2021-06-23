@@ -1,0 +1,12 @@
+category: Lua
+build-depends: cygport   lua51-devel  lua52-devel  lua53-devel  lua54-devel
+sdesc: "A fast JSON encoding/parsing module"
+ldesc: "The Lua CJSON module provides JSON support for Lua. It features:
+  - Fast, standards compliant encoding/parsing routines
+  - Full support for JSON with UTF-8, including decoding surrogate pairs
+  - Optional run-time support for common exceptions to the JSON specification (infinity, NaN,..)
+  - No dependencies on other libraries
+"
+skip:
+
+homepage: https://github.com/openresty/lua-cjson/

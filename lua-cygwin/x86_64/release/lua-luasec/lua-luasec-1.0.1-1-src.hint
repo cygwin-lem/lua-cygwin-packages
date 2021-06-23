@@ -1,0 +1,10 @@
+category: Lua
+build-depends: cygport   lua51-devel lua51-socket  lua52-devel lua52-socket  lua53-devel lua53-socket  lua54-devel lua54-socket  libssl-devel
+sdesc: "A binding for OpenSSL library to provide TLS/SSL communication over LuaSocket"
+ldesc: "This version delegates to LuaSocket the TCP connection
+establishment between the client and server. Then LuaSec
+uses this connection to start a secure TLS/SSL session.
+"
+skip:
+
+homepage: https://github.com/brunoos/luasec/wiki

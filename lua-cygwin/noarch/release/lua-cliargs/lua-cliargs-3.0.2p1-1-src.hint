@@ -1,0 +1,10 @@
+category: Lua
+build-depends: cygport   lua51-devel lua51-dkjson lua51-lyaml  lua52-devel lua52-dkjson lua52-lyaml  lua53-devel lua53-dkjson lua53-lyaml  lua54-devel lua54-dkjson lua54-lyaml
+sdesc: "A command-line argument parser"
+ldesc: "This module adds support for accepting CLI arguments easily using multiple
+notations and argument types.
+cliargs allows you to define required, optional, and flag arguments.
+"
+skip:
+
+homepage: https://github.com/amireh/lua_cliargs/

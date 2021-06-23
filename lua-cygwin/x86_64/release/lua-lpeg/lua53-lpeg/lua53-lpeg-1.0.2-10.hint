@@ -1,0 +1,9 @@
+category: Lua
+requires: cygwin lua53
+sdesc: "Lua Parsing Expression Grammars extension"
+ldesc: "LPeg is a pattern-matching library for Lua, based on Parsing
+Expression Grammars (PEGs).
+"
+obsoletes: lua-lpeg
+external-source: lua-lpeg
+

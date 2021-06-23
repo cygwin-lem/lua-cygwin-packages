@@ -1,0 +1,9 @@
+category: Lua
+build-depends: cygport   lua51-devel  lua52-devel  lua53-devel  lua54-devel
+sdesc: "Lua Parsing Expression Grammars extension"
+ldesc: "LPeg is a pattern-matching library for Lua, based on Parsing
+Expression Grammars (PEGs).
+"
+skip:
+
+homepage: http://www.inf.puc-rio.br/~roberto/lpeg/

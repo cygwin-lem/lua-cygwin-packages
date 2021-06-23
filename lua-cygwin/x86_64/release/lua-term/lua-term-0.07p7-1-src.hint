@@ -1,0 +1,8 @@
+category: Lua
+build-depends: cygport   lua51-devel  lua52-devel  lua53-devel  lua54-devel
+sdesc: "Terminal functions for Lua"
+ldesc: "Terminal functions for Lua
+"
+skip:
+
+homepage: https://github.com/hoelzro/lua-term/

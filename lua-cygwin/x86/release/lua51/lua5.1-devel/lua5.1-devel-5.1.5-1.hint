@@ -1,0 +1,8 @@
+category: _obsolete
+requires: lua51-devel
+sdesc: "Obsoleted by lua51-devel"
+ldesc: "The lua5.1-devel package is obsolete.  Selecting this package for
+installation will cause the lua51-devel package, which replaces this
+one, to be installed instead."
+external-source: lua51
+

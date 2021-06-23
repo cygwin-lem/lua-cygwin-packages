@@ -1,0 +1,7 @@
+category: Lua
+requires: cygwin libyaml0_2 lua52
+sdesc: "Terminal functions for Lua"
+ldesc: "Terminal functions for Lua
+"
+external-source: lua-lyaml
+

@@ -1,0 +1,8 @@
+category: Lua
+requires: bash lua54
+sdesc: "An extended version of Lunit for Lua"
+ldesc: "Lunitx is a unit testing framework for lua, written in lua,
+based heavily on Lunit 0.5, but modified to work with Lua 5.2.
+"
+external-source: lua-lunitx
+

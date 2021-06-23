@@ -1,0 +1,11 @@
+category: Lua
+build-depends: cygport   pkg-config  lua53-devel  lua54-devel  libssl1.0-devel
+sdesc: "Lua OpenSSL bindings"
+ldesc: "*** This project is DEPRECATED, use luaossl. ***
+LuaCrypto provides a Lua frontend to the OpenSSL cryptographic library.
+The OpenSSL features that are currently exposed are digests (MD5, SHA-1,
+HMAC, and more) and crypto-grade random number generators.
+"
+skip:
+
+homepage: https://github.com/starius/luacrypto/

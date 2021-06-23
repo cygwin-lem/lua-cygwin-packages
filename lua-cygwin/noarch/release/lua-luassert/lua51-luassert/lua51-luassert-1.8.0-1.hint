@@ -1,0 +1,9 @@
+category: Lua
+requires: lua51 lua51-say
+sdesc: "Lua Assertions Extension"
+ldesc: "luassert extends Lua's built-in assertions to provide additional tests
+and the ability to create your own. You can modify chains of assertions
+with not.
+"
+external-source: lua-luassert
+

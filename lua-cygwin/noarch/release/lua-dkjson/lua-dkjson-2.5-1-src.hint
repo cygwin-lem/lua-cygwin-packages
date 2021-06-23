@@ -1,0 +1,14 @@
+category: Lua
+build-depends: cygport   lua51-devel lua51-lpeg  lua52-devel lua52-lpeg  lua53-devel lua53-lpeg  lua54-devel lua54-lpeg
+sdesc: "David Kolf's JSON module for Lua"
+ldesc: "dkjson is a module for encoding and decoding JSON data. It supports UTF-8.
+
+JSON (JavaScript Object Notation) is a format for serializing data based
+on the syntax for JavaScript data structures.
+
+dkjson is written in Lua without any dependencies, but
+when LPeg is available dkjson uses it to speed up decoding.
+"
+skip:
+
+homepage: http://dkolf.de/src/dkjson-lua.fsl/

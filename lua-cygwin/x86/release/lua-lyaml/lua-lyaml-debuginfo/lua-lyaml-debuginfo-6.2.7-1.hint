@@ -1,0 +1,7 @@
+category: Debug
+requires: cygwin-debuginfo
+external-source: lua-lyaml
+sdesc: "Debug info for lua-lyaml"
+ldesc: "This package contains files necessary for debugging the
+lua-lyaml package with gdb."
+

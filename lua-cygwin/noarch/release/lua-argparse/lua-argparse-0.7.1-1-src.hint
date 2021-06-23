@@ -1,0 +1,11 @@
+category: Lua
+build-depends: cygport   lua51-devel  lua52-devel  lua53-devel  lua54-devel
+sdesc: "A feature-rich command-line argument parser"
+ldesc: "Argparse supports positional arguments, options, flags, optional
+arguments, subcommands and more. Argparse automatically generates
+usage, help, and error messages, and can generate shell completion
+scripts.
+"
+skip:
+
+homepage: https://github.com/luarocks/argparse/

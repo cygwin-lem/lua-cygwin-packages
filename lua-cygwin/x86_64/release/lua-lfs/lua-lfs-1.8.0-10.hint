@@ -1,0 +1,8 @@
+category: _obsolete
+requires: lua53-lfs
+sdesc: "Obsoleted by lua53-lfs"
+ldesc: "The lua-lfs package is obsolete.  Selecting this package for
+installation will cause the lua53-lfs package, which replaces this
+one, to be installed instead."
+
+

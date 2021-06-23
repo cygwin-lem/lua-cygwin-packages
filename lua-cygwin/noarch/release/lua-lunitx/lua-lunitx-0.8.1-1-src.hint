@@ -1,0 +1,9 @@
+category: Lua
+build-depends: cygport   lua51-devel  lua52-devel  lua53-devel  lua54-devel
+sdesc: "An extended version of Lunit for Lua"
+ldesc: "Lunitx is a unit testing framework for lua, written in lua,
+based heavily on Lunit 0.5, but modified to work with Lua 5.2.
+"
+skip:
+
+homepage: https://github.com/dcurrie/lunit/

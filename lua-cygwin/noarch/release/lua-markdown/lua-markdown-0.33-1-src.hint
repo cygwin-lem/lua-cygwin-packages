@@ -1,0 +1,8 @@
+category: Lua
+build-depends: cygport   lua51-devel  lua52-devel  lua53-devel  lua54-devel
+sdesc: "Markdown text-to-html markup system"
+ldesc: "A pure-lua implementation of the Markdown text-to-html markup system.
+"
+skip:
+
+homepage: https://github.com/mpeterv/markdown/
