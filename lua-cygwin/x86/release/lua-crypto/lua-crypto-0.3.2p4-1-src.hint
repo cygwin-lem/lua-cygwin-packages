@@ -1,5 +1,5 @@
 category: Lua
-build-depends: cygport   pkg-config  lua53-devel  lua54-devel  libssl1.0-devel
+build-depends: cygport   lua51-devel  lua52-devel  lua53-devel  lua54-devel  libssl1.0-devel
 sdesc: "Lua OpenSSL bindings"
 ldesc: "*** This project is DEPRECATED, use luaossl. ***
 LuaCrypto provides a Lua frontend to the OpenSSL cryptographic library.

@@ -1,5 +1,5 @@
 category: Lua
-requires: libssl-devel pkg-config lua54-crypto
+requires: libssl-devel lua54-crypto lua54-devel pkg-config
 sdesc: "Lua OpenSSL bindings"
 ldesc: "*** This project is DEPRECATED, use luaossl. ***
 LuaCrypto provides a Lua frontend to the OpenSSL cryptographic library.

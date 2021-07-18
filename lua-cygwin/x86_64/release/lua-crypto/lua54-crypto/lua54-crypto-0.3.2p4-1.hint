@@ -1,5 +1,5 @@
 category: Lua
-requires:  cygwin libssl1.0 lua54 lua54
+requires: cygwin libssl1.0 lua54
 sdesc: "Lua OpenSSL bindings"
 ldesc: "*** This project is DEPRECATED, use luaossl. ***
 LuaCrypto provides a Lua frontend to the OpenSSL cryptographic library.

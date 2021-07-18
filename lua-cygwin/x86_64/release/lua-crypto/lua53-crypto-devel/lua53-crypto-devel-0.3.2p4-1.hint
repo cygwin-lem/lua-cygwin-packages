@@ -1,11 +1,11 @@
 category: Lua
-requires:  libssl-devel pkg-config lua53-crypto
+requires: libssl-devel lua53-crypto lua53-devel pkg-config
 sdesc: "Lua OpenSSL bindings"
 ldesc: "*** This project is DEPRECATED, use luaossl. ***
 LuaCrypto provides a Lua frontend to the OpenSSL cryptographic library.
 The OpenSSL features that are currently exposed are digests (MD5, SHA-1,
 HMAC, and more) and crypto-grade random number generators.
 "
-obsoletes:       lua-crypto-devel     
+obsoletes: lua-crypto-devel
 external-source: lua-crypto
 
