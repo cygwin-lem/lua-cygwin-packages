@@ -122,7 +122,8 @@ prep_tree () {
 mksetupini_options=(
   "--disable-check=missing-required-package"
   "--disable-check=missing-depended-package"
-  "--disable-check=missing-curr"
+  "--disable-check=missing-obsoleted-package"
+  "--disable-check" "missing-curr"
 )
 
 setup_tree () {
