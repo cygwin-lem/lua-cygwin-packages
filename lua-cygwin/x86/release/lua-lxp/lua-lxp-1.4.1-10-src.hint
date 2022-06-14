@@ -5,4 +5,4 @@ ldesc: "LuaExpat is a SAX XML parser based on the Expat library.
 "
 skip:
 
-homepage: https://github.com/tomasguisasola/luaexpat/
+homepage: https://lunarmodules.github.io/luaexpat/

@@ -1,8 +1,0 @@
-category: _obsolete
-requires: lua53-lxp
-sdesc: "Obsoleted by lua53-lxp"
-ldesc: "The lua-lxp package is obsolete.  Selecting this package for
-installation will cause the lua53-lxp package, which replaces this
-one, to be installed instead."
-
-
